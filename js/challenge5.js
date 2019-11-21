@@ -1,5 +1,5 @@
 console.log("here")
-var imgs = document.querySelectorAll("img");
+var imgs = $("img");
 var msg = "Hover over an image below."
 for (let i = 0; i < imgs.length;i++){
 	imgs[i].onmouseover = function() {
